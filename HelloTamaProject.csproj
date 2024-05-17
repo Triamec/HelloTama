@@ -9,9 +9,7 @@
     <RootNamespace>Triamec.Tam.Samples</RootNamespace>
     <AssemblyName>TamaProject</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
-    <TargetFrameworkProfile />
+    <MSBuildWarningsAsMessages>CA1812</MSBuildWarningsAsMessages>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,7 +40,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TamaProgram.cs" />
+    <Compile Include="source\HelloTamaCode.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
